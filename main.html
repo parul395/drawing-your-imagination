@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta charset="utf-8">
+     <title>Drawing App</title>
+     <meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+     <link rel="stylesheet" href="styling.css">
+       <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/start/jquery-ui.css">
+     
+    
+    
+    
+    
+</head>
+    <body>
+        <div id="header" ><p> DRAW YOUR IMAGINATION</p></div>
+        <div class="inputscont">
+        <!---color inputs--->
+           
+            <div class="input" id="colorinput">
+            
+                <p style="font-weight: bold">Choose A Color:</p><input type="color" list id="paintcolor">
+            
+            </div>
+           <!---pain brush--->   <div class="input" id="brush">
+            <p  style="font-weight: bold">Choose Thickness</p>
+            <div id="circle">
+          
+            
+            
+            </div>
+            
+            </div>
+            <div class="input">
+            
+            <div id="slider">
+                
+                
+                
+                </div>
+            
+            </div>
+            
+        
+        
+        </div>
+        <!---canvas--->
+        <div id="container">
+        <canvas id="paint" width="800px" height="400px"></canvas>
+        
+        
+        
+        </div>
+        <div id="panel">
+        
+        
+        
+        <div class="input2">
+            <span id="erase" class="button">Erase</span>
+            </div>
+            
+            <div class="input2">
+            <span id="save" class="button">Save</span>
+            </div>
+            
+            <div class="input2">
+            <span id="reset" class="button">Reset</span>
+            </div>
+        
+        </div>
+    
+    
+    
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script src="java.js"></script>
+    </body>
+
+
+
+
+</html>
